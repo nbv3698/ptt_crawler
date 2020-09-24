@@ -64,13 +64,13 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-    'web_crawler_project.pipelines.WebCrawlerProjectPipeline': 300,
+#ITEM_PIPELINES = {
+    #'web_crawler_project.pipelines.WebCrawlerProjectPipeline': 300,
     #'web_crawler_project.pipelines.DeleteNullTitlePipeline': 200,
     #'web_crawler_project.pipelines.DuplicatesTitlePipeline': 400,
     #'web_crawler_project.pipelines.MongoDBPipeline': 400,
 
-}
+#}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
