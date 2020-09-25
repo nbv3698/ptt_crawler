@@ -68,7 +68,7 @@ ITEM_PIPELINES = {
     #'web_crawler_project.pipelines.WebCrawlerProjectPipeline': 300,
     #'web_crawler_project.pipelines.DeleteNullTitlePipeline': 200,
     #'web_crawler_project.pipelines.DuplicatesTitlePipeline': 400,
-    'web_crawler_project.pipelines.MongoDBPipeline': 400,
+    #'web_crawler_project.pipelines.MongoDBPipeline': 400,
 
 }
 
